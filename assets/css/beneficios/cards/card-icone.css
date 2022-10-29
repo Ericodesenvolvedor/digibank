@@ -1,0 +1,30 @@
+.card_icone {
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 2rem;
+}
+
+.card_icone--cdi {
+    background-image: url("../../../img/sifrão-background-verde.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card_icone--taxas {
+    background-image: url("../../../img/setas-paralelas-background-azul.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card_icone--anuidade {
+    background-image: url("../../../img/card-background-lilas.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card_icone--despesas {
+    background-image: url("../../../img/grafico-barras-background-vermelho.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

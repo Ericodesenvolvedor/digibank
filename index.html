@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digibank</title>
+    <!-- MENU -->
     <link rel="stylesheet" href="./assets/css/global.css" />
     <link rel="stylesheet" href="./assets/css/util/container.css" />
     <link rel="stylesheet" href="./assets/css/util/botao.css" />
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="./assets/css/navegacao/logo.css" />
     <link rel="stylesheet" href="./assets/css/navegacao/menu.css" />
     <link rel="stylesheet" href="./assets/css/navegacao/menu-link.css" />
+    <!-- HEADER -->
     <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css" />
     <link rel="stylesheet" href="./assets/css/cabecalho/conteudo-titulo.css" />
     <link rel="stylesheet" href="./assets/css/cabecalho/conteudo-paragrafo.css" />
@@ -20,10 +22,19 @@
     <link rel="stylesheet" href="./assets/css/cabecalho/conteudo-informacoes-titulo.css" />
     <link rel="stylesheet" href="./assets/css/cabecalho/conteudo-informacoes-paragrafo.css" />
     <link rel="stylesheet" href="./assets/css/cabecalho/imagem-mulher.css" />
+    <!-- MAIN - BENEFICIOS -->
+    <link rel="stylesheet" href="./assets/css/beneficios/beneficios.css" />
+    <link rel="stylesheet" href="./assets/css/beneficios/beneficios-subtitulo.css" />
+    <link rel="stylesheet" href="./assets/css/beneficios/beneficios-titulo.css" />
+    <link rel="stylesheet" href="./assets/css/beneficios/cards/cards.css" />
+    <link rel="stylesheet" href="./assets/css/beneficios/cards/card.css" />
+    <link rel="stylesheet" href="./assets/css/beneficios/cards/card-icone.css" />
+    <link rel="stylesheet" href="./assets/css/beneficios/cards/card-paragrafo.css" />
+    <link rel="stylesheet" href="./assets/css/beneficios/cards/card-link.css" />
 </head>
 
 <body>
-    <nav class="navegacao container">
+    <nav class="navegacao">
         <a class="logo">
             digi<span class="logo logo--verde">bank</span>
         </a>
@@ -52,6 +63,39 @@
         </div>
         <img class="imagem-mulher" src="./assets/img/mulher-com-celular-na-mao.png" alt="Mulher com um celular na mão apontando para a tela do dispositivo.">
     </header>
+
+    <main class="principal">
+        <section class="beneficios container">
+            <h3 class="beneficios_subtitulo">Zero burocracia</h3>
+            <h2 class="beneficios_titulo">Aqui, seu tempo rende tanto quanto <br /> seu dinheiro.</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <span class="card_icone card_icone--cdi"></span>
+                    <p class="card_paragrafo">Dinheiro rendendo 104% do CDI</p>
+                    <a href="#" class="card_link card_link--seta">Leia mais</a>
+                </div>
+               
+                <div class="card">
+                    <span class="card_icone card_icone--taxas"></span>
+                    <p class="card_paragrafo">Transfira dinheiro sem pagar taxas</p>
+                    <a href="#" class="card_link card_link--seta">Leia mais</a>
+                </div>
+               
+                <div class="card">
+                    <span class="card_icone card_icone--anuidade"></span>
+                    <p class="card_paragrafo">Cartão de crédito sem anuidade</p>
+                    <a href="#" class="card_link card_link--seta">Leia mais</a>
+                </div>
+               
+                <div class="card">
+                    <span class="card_icone card_icone--despesas"></span>
+                    <p class="card_paragrafo">Acompanhe e controle despesas</p>
+                    <a href="#" class="card_link card_link--seta">Leia mais</a>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>

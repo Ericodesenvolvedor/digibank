@@ -1,0 +1,10 @@
+.card_link {
+    align-items: center;
+    color: var(--verde);
+    display: flex;
+}
+
+.card_link--seta::after {
+    content: ">";
+    margin-left: .5rem;
+}
