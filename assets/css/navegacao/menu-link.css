@@ -1,0 +1,19 @@
+.menu_link {
+    color: var(--preto);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.menu_link--after::after {
+    background-image: url("../../img/seta-para-baixo.svg");
+    background-repeat: no-repeat;
+    content: "";
+    display: inline-block;
+    margin-left: .5rem;
+    height: 1rem;
+    width: 1rem;
+}
+
+.menu_item:last-child .menu_link {
+    text-decoration: underline;
+}

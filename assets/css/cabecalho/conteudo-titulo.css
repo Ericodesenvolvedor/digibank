@@ -1,0 +1,10 @@
+.conteudo_titulo {
+    font-size: 4.5rem;
+}
+
+.conteudo_titulo--background {
+    background-color: var(--verde);
+    color: var(--branco);
+    display: inline-block;
+    padding: .5rem;
+}

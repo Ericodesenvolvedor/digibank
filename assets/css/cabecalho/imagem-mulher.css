@@ -1,0 +1,6 @@
+.imagem-mulher {
+    width: 50%;
+    object-fit: cover;
+    height: 95%;
+    align-self: flex-end;
+}

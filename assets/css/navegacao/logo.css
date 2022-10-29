@@ -1,0 +1,9 @@
+.logo {
+    color: var(--preto);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logo--verde {
+    color: var(--verde);
+}

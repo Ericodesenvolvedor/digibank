@@ -1,0 +1,8 @@
+.botao {
+    background-color: var(--preto);
+    display: block;
+    width: 70%;
+    padding: 1rem 0;
+    font-weight: bold;
+    text-align: center;
+}

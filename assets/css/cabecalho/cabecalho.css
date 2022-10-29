@@ -1,0 +1,8 @@
+.cabecalho {
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(139, 255, 211), white);
+    display: flex;
+    height: calc(100vh - 10rem);
+    justify-content: space-around;
+    padding-inline: 5rem;
+}

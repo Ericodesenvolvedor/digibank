@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --branco: rgb(255, 255, 255);
+    --cinza: rgb(112, 121, 139);
+    --preto: rgb(0, 0, 0);
+    --preto-cinzento: rgb(38, 38, 38);
+    --verde: rgb(12, 214, 138);
+
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
