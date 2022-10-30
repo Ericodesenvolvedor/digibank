@@ -1,0 +1,8 @@
+.sobre {
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(139, 255, 211), white);
+    display: flex;
+    justify-content: space-evenly;
+    height: 70vh;
+    width: 100%;
+}
