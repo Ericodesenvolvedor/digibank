@@ -1,0 +1,5 @@
+.info_item_subtitulo {
+    color: var(--verde);
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
