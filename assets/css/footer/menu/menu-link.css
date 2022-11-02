@@ -1,0 +1,9 @@
+.footer .menu_link {
+    color: var(--branco);
+    text-transform: initial;
+    font-weight: bold;
+}
+
+.footer .menu_item:last-child .menu_link {
+    text-decoration: none;
+}

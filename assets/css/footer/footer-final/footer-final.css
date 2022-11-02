@@ -1,0 +1,29 @@
+.footer_final {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.footer_final .footer_direitos-reservados {
+    color: var(--cinza);
+    font-size: 1.4rem;
+}
+
+.footer_final .footer_bandeira {
+    color: var(--branco);
+    font-size: 1.4rem;
+    display: flex;
+}
+
+.footer_final .footer_bandeira::before {
+    content: "";
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+
+    background-image: url("../../../img/bandeira-brasil.svg");
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,13 @@
+.box {
+    width: 50%;
+}
+
+.box:nth-child(1),
+.box:nth-child(2) {
+    margin-bottom: 4rem;
+}
+
+.box:nth-child(even) {
+    display: flex;
+    justify-content: flex-end;
+}
